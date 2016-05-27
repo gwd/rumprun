@@ -3,6 +3,7 @@
 LIB=	rumpkern_bmktc
 
 SRCS+=	rump_bmktc.c
+SRCS+=	sys_nanosleep.c
 
 RUMPTOP= ${TOPRUMP}
 
